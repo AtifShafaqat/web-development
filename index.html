@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A semantic and accessible landing page for a product or service.">
+    <title>Semantic Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Product or service</h1>
+        <button id="theme-toggle" aria-label="Toggle theme">Toggle Theme</button>
+    </header>
+    <main>
+        <article>
+            <h2>Product</h2>
+            <p>Discover the best features and benefits.</p>
+        </article>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span id="name-error" class="error"></span>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="email-error" class="error"></span>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="api-widget">
+            <h2>API Data</h2>
+            <div id="data-container"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Our Company</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
