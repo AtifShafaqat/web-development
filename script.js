@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
         body.classList.toggle("dark-mode");
         localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
     });
-
     // Form Validation
     const form = document.getElementById("contact-form");
     form.addEventListener("submit", function (event) {
